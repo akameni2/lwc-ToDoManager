@@ -1,5 +1,5 @@
 /**
- * ToDoManager class - test GIt
+ * ToDoManager class - test Git
  * Support Add/Remove/Update/Retrieve APIs
  * @author Manish Choudhari
  */
