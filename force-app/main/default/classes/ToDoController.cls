@@ -1,10 +1,10 @@
 /**
- * ToDoManager class
+ * ToDoManager class - test GIt
  * Support Add/Remove/Update/Retrieve APIs
  * @author Manish Choudhari
  */
 public class ToDoController {
-  //Add a new item in ToDo__c object
+  //Add a new item in ToDo__c object 
   //Accepts serialized ToDo object
   @AuraEnabled
   public static String addTodo(String payload) {
@@ -58,7 +58,7 @@ try{
     return getToDos(todos);
   }
 
-  //Get all todos for today
+  //Get all todos for todays
   @AuraEnabled
   public static List<ToDo> getCurrentTodos() {
     List<SObject> todos = Database.query(
